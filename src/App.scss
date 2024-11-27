@@ -1,0 +1,64 @@
+
+
+
+
+.App {
+    text-align: center;
+
+    #quote-box {
+        background-color: white;
+        border-radius: 20px;
+        padding: 50px;
+        width: 70%;
+        transition: background-color 4s ease-in-out;
+
+        #text {
+            font-size: 100%;
+            transition: color 2s ease-in-out;
+        }
+
+        #author {
+            text-align: end;
+            text-size-adjust: auto;
+            font-size: 70%;
+            transition: color 2s ease-in-out;
+        }
+
+        #tweet-quote {
+            float: left;
+            padding-left: 10%;
+            transition: background-color 1s ease-in-out;
+
+            #xIconId {
+                width: 25px;
+                height: 25px;
+                padding: 0%;
+                margin: 0%;
+                transition: background-color 1s ease-in-out;
+            }
+        }
+
+
+
+        #new-quote {
+            font-size: 60%;
+            float: right;
+            margin-right: 10%;
+            color: white;
+            border: none;
+            padding: 1.5% 2% 1.5% 2%;
+            border-radius: 10px;
+            transition: background-color 1s ease-in-out;
+        }
+    }
+
+    .App-header {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        transition: background-color 1s ease-in-out;
+    }
+}
